@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>CsToDartTranspiler.WPF</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Microsoft.Windows.SDK.NET">
+      <HintPath>..\..\..\..\..\Program Files\WindowsApps\25529kineapps.CtoDartTranspiler_2.0.33.0_x64__4a6d1yza056d2\CsToDartTranspiler.WPF\Microsoft.Windows.SDK.NET.dll</HintPath>
+    </Reference>
+    <Reference Include="KineApps.Controls">
+      <HintPath>..\..\..\..\..\Program Files\WindowsApps\25529kineapps.CtoDartTranspiler_2.0.33.0_x64__4a6d1yza056d2\CsToDartTranspiler.WPF\KineApps.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="CsToDartTranspiler">
+      <HintPath>..\..\..\..\..\Program Files\WindowsApps\25529kineapps.CtoDartTranspiler_2.0.33.0_x64__4a6d1yza056d2\CsToDartTranspiler.WPF\CsToDartTranspiler.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.Workspaces">
+      <HintPath>..\..\..\..\..\Program Files\WindowsApps\25529kineapps.CtoDartTranspiler_2.0.33.0_x64__4a6d1yza056d2\CsToDartTranspiler.WPF\Microsoft.CodeAnalysis.Workspaces.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
